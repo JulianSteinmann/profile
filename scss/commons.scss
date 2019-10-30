@@ -1,0 +1,52 @@
+html { background-color: black; }
+
+body {
+  background-color: #eee;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  line-height: 130%;
+  color: $color--text;
+  font-weight: 300;
+  background: url(images/gif-matrix.gif) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  padding-bottom: 500px;
+}
+
+// Headings
+h1, h2, h3 {
+  color: $color--main;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'Bitter', 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: $color--text;
+  letter-spacing: 0.09em;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: $color--text;
+  letter-spacing: 0.09em;
+  font-weight: 300;
+}
+
+// Links
+a, a:visited, a:active {
+  color: $color--main;
+  text-decoration: none;
+  &:hover, &:active { color: $color--main--light; }
+}
+

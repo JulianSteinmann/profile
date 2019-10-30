@@ -1,0 +1,13 @@
+$color--green: #349533;
+$color--gray: #444444;
+$color--gray--dark: shade($color--gray, 20%);
+$color--gray--light: tint($color--gray, 20%);
+
+
+$color--main: $color--green;
+$color--main--light: tint($color--main, 20%);
+$color--main--dark: shade($color--main, 20%);
+
+$color--text: $color--gray;
+
+$size--profile-image: 140px;
